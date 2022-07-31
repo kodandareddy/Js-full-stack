@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+body{
+    background: url('./bg.webp');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    font-family: 'Poppins';
+    margin: 0 10%;
+}
+/* Nav Bar start */
+nav{
+    height: 20vh;
+    align-items: center;
+    color: #fff;
+    display: flex;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+}
+.first{
+    width: 30%;
+}
+.middle{
+    width: 70%;
+     border-bottom: 2px solid #fff;
+     padding-bottom: 60px;
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+}
+
+
+.list{
+    display: flex;
+    justify-content: flex-start;
+    gap: 50px;
+    font-size: 23px;
+    align-items: center;
+    font-weight: 600;
+}
+
+.phone-icon i{
+    font-size: 25px;
+    margin-right: 10px;
+}
+
+.call{
+    display: flex;
+    align-items: center;
+    font-size: 23px;
+}
+
+/* Navbar end */
+
+.hero-section{
+    height: 80vh;
+    display: flex;
+    margin-top: 5%;
+}
+
+.left-section{
+    flex: 0.6;
+    color: #fff;
+}
+.left-section h1{
+    font-size: 90px;
+}
+.left-section button{
+    background-color:transparent;
+    border: 2px solid #fff;
+    padding: 20px 50px;
+    text-transform: uppercase;
+    color: #fff;
+    font-size: 25px;
+    border-radius: 50px;
+    font-weight: 600;
+    margin-top: 100px;
+
+}
+.right-section{
+    flex: 0.4;
+    position: relative;
+    color: #fff;
+}
+
+.block-1,.block-2{
+    width: 250px;
+    background-color: #304554;
+    padding:30px 40px;
+    position: absolute;
+    right: 0;
+    overflow: initial;
+}
+
+.block-1 .icon,.block-2 .icon{
+ background-color: #fff;
+ color: black;
+ display: inline-block;
+ padding: 3px 30px;
+ border-radius: 50px;
+ font-size: 25px;
+}
+
+
+.block-1::before{
+    content: '';
+    width: 2px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    transform: translateY(100%);
+    bottom: 0;
+    right: 20%
+}
+
+
+.block-1::after,.block-2::after{
+    content: '';
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    transform: translateY(600%);
+    bottom: 0;
+    right: 17%
+}
+.block-2{
+    bottom: 30%;
+    left: 0;
+}
+.block-2::before{
+    content: '';
+    width: 2px;
+    height: 100px;
+    background-color: #fff;
+    position: absolute;
+    right: 0;
+    transform: rotate(90deg) translateY(-50%) ;
+
+}
+.block-2::after{
+    bottom: auto;
+    top: 44%;
+    transform: translateX(600%);
+    right: 0;
+
+}
