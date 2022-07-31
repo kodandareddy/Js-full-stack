@@ -338,7 +338,9 @@ max-width: 600px;
 }
 .oce-hosting{
     background-image: url('./images/footer-bg.svg');
+    background-repeat: no-repeat;
     color: #fff;
+    background-size: cover;
 }
 
 .oce-hosting button{
@@ -367,6 +369,10 @@ font-weight: 100;
 .oce-hosting .right{
     justify-content: flex-end;
     display: flex
+}
+.oce-hosting button{
+    padding: 20px 40px;
+    font-size: 25px;
 }
 
 
