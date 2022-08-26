@@ -157,3 +157,60 @@ nav{
 .left-btn{
     transform: translateX(-15%);
 }
+
+
+
+@media only screen and (max-width: 900px) {
+    nav{
+        gap: 10px;
+        flex-direction: column;
+        margin: 20px 0;
+    }
+    .nav-items{
+        gap: 10px;
+    }
+.intro-section{
+    flex-direction: column;
+    margin: 0;
+    text-align: center;
+}
+.left-section,.right-section{
+    width: 95%;
+}
+.left-section h3{
+  font-size: 25px;
+}
+.left-section h1{
+    font-size: 50px;
+    margin-top: 20px;
+}
+.right-section{
+    margin: 50px 0;
+}
+
+.action-btns{
+    flex-direction: column;
+    justify-content: center;
+}
+.headPhone{
+    position:static;
+     width: 100%;
+}
+.discount{
+    width:100px;
+}
+.discount-container{
+  display: none;
+}
+
+.discount-content h1{
+    font-size: 20px;
+}
+.dots{
+    align-items: center;
+    justify-content: center;
+}
+.left-btn{
+    transform: translateX(0);
+}
+}

@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,900;1,200&display=swap');
 
-:root {
-    --blue:'#7030CC';
-    --liteBlue:'#1BBCEF'
-}
 
 body{
     font-family: 'Poppins', sans-serif;
@@ -256,11 +252,7 @@ width: 100%;
 .card_text p{
     margin: 0;
 }
-@media (min-width: 576px) { 
-    
- }
 
-/* // md --- Medium devices (tablets, 768px and up) */
 
 
 /* // lg --- Large devices (desktops, 992px and up) */
@@ -302,7 +294,7 @@ width: 100%;
         width: 95%;
    }
    .card{
-    width: 50%;
+    width:70%;
 }
  }
 
